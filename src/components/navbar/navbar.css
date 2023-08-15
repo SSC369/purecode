@@ -1,0 +1,60 @@
+.logo {
+  width: 200px;
+  height: 60px;
+}
+.buy-now-button {
+  background-color: #a2c11c;
+  border-radius: 6px;
+  border-width: 0;
+  height: 40px;
+  width: 100px;
+}
+.options-container {
+  list-style-type: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.option {
+  margin-right: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.icon-options-container {
+  display: flex;
+  width: 20%;
+  max-width: 100px;
+  justify-content: space-between;
+}
+.toggle-menu-button {
+  background-color: transparent;
+  border: none;
+}
+.show {
+  display: flex;
+}
+.hide {
+  display: none;
+}
+.menu-options {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .icon-options-container {
+    display: none;
+  }
+  .options-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .toggle-menu-button {
+    display: none;
+  }
+  .menu-options {
+    display: none;
+  }
+}

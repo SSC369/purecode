@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+}
+.footer-icon {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.footer-column {
+  min-width: 200px;
+}

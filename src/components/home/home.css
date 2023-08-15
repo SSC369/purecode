@@ -1,0 +1,85 @@
+.change-button {
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background-color: rgb(234, 234, 234);
+}
+.change-button:hover {
+  border: 1px solid lightgray;
+}
+.card-container {
+  border: 0.01rem solid lightgray;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.address-container {
+  display: flex;
+  flex-direction: column;
+  border: 0.01rem solid lightgray;
+  border-radius: 8px;
+}
+.save-button {
+  border-radius: 10px;
+  border: none;
+  padding: 6px 10px;
+}
+.cancel-button {
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+.cancel-button:hover {
+  border: 0.05rem solid black;
+}
+.product-image {
+  width: 100px;
+}
+.quantity-button {
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid gray;
+  width: 20px;
+  height: 20px;
+}
+.quantity-button:hover {
+  color: white;
+  border: none;
+  background-color: gray;
+}
+.color {
+  border-right: 1px solid gray;
+  padding-right: 10px;
+}
+.order-summary-container {
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 40%;
+  min-width: 440px;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+}
