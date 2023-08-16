@@ -11,5 +11,6 @@
   margin-bottom: 10px;
 }
 .footer-column {
-  min-width: 200px;
+  min-width: 100px;
+  margin: 20px;
 }

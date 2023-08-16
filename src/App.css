@@ -5,3 +5,11 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+.transparent-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

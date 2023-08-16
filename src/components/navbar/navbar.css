@@ -2,6 +2,15 @@
   width: 200px;
   height: 60px;
 }
+@media screen and (max-width: 991px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+.logo2 {
+  width: 100px;
+}
 .buy-now-button {
   background-color: #a2c11c;
   border-radius: 6px;
@@ -9,16 +18,27 @@
   height: 40px;
   width: 100px;
 }
+@media screen and (max-width: 991px) {
+  .buy-now-button {
+    width: 60px;
+    font-size: 12px;
+    height: 30px;
+  }
+}
+
 .options-container {
+  margin-left: 20px;
   list-style-type: none;
+  padding-left: 0;
   display: flex;
-  width: 40%;
+  width: 50%;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 0;
 }
 .option {
   margin-right: 10px;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 .icon-options-container {
@@ -38,6 +58,10 @@
   display: none;
 }
 .menu-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   list-style-type: none;
   padding-left: 0;
 }
@@ -56,5 +80,8 @@
   }
   .menu-options {
     display: none;
+  }
+  .options-container {
+    display: flex;
   }
 }
